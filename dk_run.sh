@@ -1,0 +1,1 @@
+docker run --gpus all -it -d -v /home/xungvv/code/gRPC:/app --name xungrpcv1 xungrpc:v1 /bin/bash

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.so
+
+configs/
+.env
+.env.*
+
+practice_basic_3_cskh/

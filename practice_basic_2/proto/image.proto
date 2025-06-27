@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package imageservice;
+
+//Server implement service ImageService thành class ImageService
+// và pc UploadImage thành def UploadImage
+service ImageService {
+  rpc UploadImage (ImageUploadRequest) returns (ImageUploadResponse);
+}
+
+message ImageUploadRequest {
+  string image_name = 1;
+  bytes image_data = 2;
+}
+
+message ImageUploadResponse {
+  string image_url = 1;
+}
